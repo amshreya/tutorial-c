@@ -2,7 +2,10 @@
 unsigned int reverse_bits(unsigned int n);
 int main()
 {
-    unsigned int result = reverse_bits(4);
+    unsigned int num, result;
+    printf("Enter a number:");
+    scanf("%d", &num);
+    result = reverse_bits(num);
     printf("The reversed bits results in the number %d", result);
     return 0;
 }
